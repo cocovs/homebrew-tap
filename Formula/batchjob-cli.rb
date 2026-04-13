@@ -1,25 +1,25 @@
 class BatchjobCli < Formula
   desc "Developer CLI for hosted BatchJob skills"
   homepage "https://github.com/cocovs/batchjob-agent-kit"
-  version "0.1.14"
+  version "0.1.15"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cocovs/batchjob-agent-kit/releases/download/v0.1.14/batchjob-cli-darwin-arm64.tar.gz"
-      sha256 "b7567bc4b71fe6d5cfc6d9f28251006531f2c9dc45c4cc2d508cff696b526fa3"
+      url "https://github.com/cocovs/batchjob-agent-kit/releases/download/v0.1.15/batchjob-cli-darwin-arm64.tar.gz"
+      sha256 "8b5c0b89482a3475801c976c56a06ff5979a00f05c5c1e89f614fa73b233a05a"
     else
-      url "https://github.com/cocovs/batchjob-agent-kit/releases/download/v0.1.14/batchjob-cli-darwin-amd64.tar.gz"
-      sha256 "ba023eaa086244b3637d40890a9c6bb6f02f50edf2880018c7751c71475745a3"
+      url "https://github.com/cocovs/batchjob-agent-kit/releases/download/v0.1.15/batchjob-cli-darwin-amd64.tar.gz"
+      sha256 "340fd3f3a05bcff2a3e17e53914354d60ba8fa5a888ead1a166c1682ab8eadad"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cocovs/batchjob-agent-kit/releases/download/v0.1.14/batchjob-cli-linux-arm64.tar.gz"
-      sha256 "ca81187d55af99b6513736b809ce8a1bdafbc84474355632600b3bf3b35b79b6"
+      url "https://github.com/cocovs/batchjob-agent-kit/releases/download/v0.1.15/batchjob-cli-linux-arm64.tar.gz"
+      sha256 "ddb0c96acaeffea1e9434e207846966dc754ab336c3345c7ea73bff124c494e7"
     else
-      url "https://github.com/cocovs/batchjob-agent-kit/releases/download/v0.1.14/batchjob-cli-linux-amd64.tar.gz"
-      sha256 "4b17d22192c9f7f269bc573690558b0723f4764bd239ab9e08852eac9e690e45"
+      url "https://github.com/cocovs/batchjob-agent-kit/releases/download/v0.1.15/batchjob-cli-linux-amd64.tar.gz"
+      sha256 "e1b81c356a849b9f2c9397eefe5a83061c7e576c9270eec1de37ebeb60c97816"
     end
   end
 
